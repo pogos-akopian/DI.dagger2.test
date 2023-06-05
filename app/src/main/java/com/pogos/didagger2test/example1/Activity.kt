@@ -6,6 +6,7 @@ class Activity {
 
     lateinit var computer: Computer
     lateinit var keyboard: Keyboard
+    lateinit var memory: Memory
 
     init {
         Component().inject(this)

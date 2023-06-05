@@ -20,5 +20,6 @@ class Component {
 
         activity.computer = getComputer()
         activity.keyboard = Keyboard()
+        activity.memory = Memory()
     }
 }
