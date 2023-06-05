@@ -1,6 +1,6 @@
-package com.example.dependencyinjectionstart.example2.presentation
+package com.pogos.didagger2test.example2.presentation
 
-import com.example.dependencyinjectionstart.example2.domain.ExampleUseCase
+import com.pogos.didagger2test.example2.domain.ExampleUseCase
 
 class ExampleViewModel(
     private val useCase: ExampleUseCase

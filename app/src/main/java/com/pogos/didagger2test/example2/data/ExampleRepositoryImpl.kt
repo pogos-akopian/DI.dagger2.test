@@ -1,6 +1,6 @@
-package com.example.dependencyinjectionstart.example2.data
+package com.pogos.didagger2test.example2.data
 
-import com.example.dependencyinjectionstart.example2.domain.ExampleRepository
+import com.pogos.didagger2test.example2.domain.ExampleRepository
 
 class ExampleRepositoryImpl(
     private val localDataSource: ExampleLocalDataSource,

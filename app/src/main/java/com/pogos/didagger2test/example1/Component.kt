@@ -1,6 +1,5 @@
 package com.pogos.didagger2test.example1
 
-import com.example.dependencyinjectionstart.example1.*
 
 class Component {
 
@@ -18,8 +17,6 @@ class Component {
 
     fun inject(activity: Activity) {
 
-        activity.computer = getComputer()
         activity.keyboard = Keyboard()
-        activity.memory = Memory()
     }
 }

@@ -1,4 +1,4 @@
-package com.example.dependencyinjectionstart.example2.domain
+package com.pogos.didagger2test.example2.domain
 
 class ExampleUseCase(
     private val repository: ExampleRepository
