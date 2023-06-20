@@ -1,10 +1,13 @@
 package com.pogos.didagger2test.example1
 
+import javax.inject.Inject
+
 class Activity {
 
-    lateinit var keyboard: Keyboard
+
+    var computer: Computer = DaggerNewComponent.create().getComputer()
 
     init {
-        Component().inject(this)
+        DaggerNewComponent.create().inject(this)
     }
 }
