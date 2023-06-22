@@ -1,6 +1,8 @@
 package com.pogos.didagger2test.example2.data.mapper
 
-class ExampleMapper {
+import javax.inject.Inject
+
+class ExampleMapper @Inject constructor(){
 
     fun map() {
 
